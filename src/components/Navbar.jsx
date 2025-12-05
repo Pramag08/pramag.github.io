@@ -63,7 +63,12 @@ const Navbar = () => {
             ))}
           </ul>
           
-          <button className='ai-button'>
+          <a 
+            href="/portfolio/resume.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className='ai-button'
+          >
             <svg
               viewBox="0 0 24 24"
               height="18"
@@ -79,7 +84,7 @@ const Navbar = () => {
               </g>
             </svg>
             Resume
-          </button>
+          </a>
         </div>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
